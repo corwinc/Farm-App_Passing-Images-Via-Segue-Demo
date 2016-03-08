@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCA022921C8E84D000560778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA022911C8E84D000560778 /* AppDelegate.swift */; };
+		FCA022941C8E84D000560778 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA022931C8E84D000560778 /* ViewController.swift */; };
+		FCA022971C8E84D000560778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA022951C8E84D000560778 /* Main.storyboard */; };
+		FCA022991C8E84D000560778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA022981C8E84D000560778 /* Assets.xcassets */; };
+		FCA0229C1C8E84D000560778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA0229A1C8E84D000560778 /* LaunchScreen.storyboard */; };
+		FCA022A71C8E84D000560778 /* Farm_App_Passing_Images_Via_Segue_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA022A61C8E84D000560778 /* Farm_App_Passing_Images_Via_Segue_DemoTests.swift */; };
+		FCA022B21C8E84D000560778 /* Farm_App_Passing_Images_Via_Segue_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA022B11C8E84D000560778 /* Farm_App_Passing_Images_Via_Segue_DemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCA022A31C8E84D000560778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCA022861C8E84D000560778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA0228D1C8E84D000560778;
+			remoteInfo = "Farm App_Passing Images Via Segue Demo";
+		};
+		FCA022AE1C8E84D000560778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCA022861C8E84D000560778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA0228D1C8E84D000560778;
+			remoteInfo = "Farm App_Passing Images Via Segue Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCA0228E1C8E84D000560778 /* Farm App_Passing Images Via Segue Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Farm App_Passing Images Via Segue Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA022911C8E84D000560778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCA022931C8E84D000560778 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCA022961C8E84D000560778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCA022981C8E84D000560778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA0229B1C8E84D000560778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCA0229D1C8E84D000560778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA022A21C8E84D000560778 /* Farm App_Passing Images Via Segue DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Farm App_Passing Images Via Segue DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA022A61C8E84D000560778 /* Farm_App_Passing_Images_Via_Segue_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Farm_App_Passing_Images_Via_Segue_DemoTests.swift; sourceTree = "<group>"; };
+		FCA022A81C8E84D000560778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA022AD1C8E84D000560778 /* Farm App_Passing Images Via Segue DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Farm App_Passing Images Via Segue DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA022B11C8E84D000560778 /* Farm_App_Passing_Images_Via_Segue_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Farm_App_Passing_Images_Via_Segue_DemoUITests.swift; sourceTree = "<group>"; };
+		FCA022B31C8E84D000560778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA0228B1C8E84D000560778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA0229F1C8E84D000560778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA022AA1C8E84D000560778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCA022851C8E84D000560778 = {
+			isa = PBXGroup;
+			children = (
+				FCA022901C8E84D000560778 /* Farm App_Passing Images Via Segue Demo */,
+				FCA022A51C8E84D000560778 /* Farm App_Passing Images Via Segue DemoTests */,
+				FCA022B01C8E84D000560778 /* Farm App_Passing Images Via Segue DemoUITests */,
+				FCA0228F1C8E84D000560778 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA0228F1C8E84D000560778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA0228E1C8E84D000560778 /* Farm App_Passing Images Via Segue Demo.app */,
+				FCA022A21C8E84D000560778 /* Farm App_Passing Images Via Segue DemoTests.xctest */,
+				FCA022AD1C8E84D000560778 /* Farm App_Passing Images Via Segue DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA022901C8E84D000560778 /* Farm App_Passing Images Via Segue Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FCA022911C8E84D000560778 /* AppDelegate.swift */,
+				FCA022931C8E84D000560778 /* ViewController.swift */,
+				FCA022951C8E84D000560778 /* Main.storyboard */,
+				FCA022981C8E84D000560778 /* Assets.xcassets */,
+				FCA0229A1C8E84D000560778 /* LaunchScreen.storyboard */,
+				FCA0229D1C8E84D000560778 /* Info.plist */,
+			);
+			path = "Farm App_Passing Images Via Segue Demo";
+			sourceTree = "<group>";
+		};
+		FCA022A51C8E84D000560778 /* Farm App_Passing Images Via Segue DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCA022A61C8E84D000560778 /* Farm_App_Passing_Images_Via_Segue_DemoTests.swift */,
+				FCA022A81C8E84D000560778 /* Info.plist */,
+			);
+			path = "Farm App_Passing Images Via Segue DemoTests";
+			sourceTree = "<group>";
+		};
+		FCA022B01C8E84D000560778 /* Farm App_Passing Images Via Segue DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCA022B11C8E84D000560778 /* Farm_App_Passing_Images_Via_Segue_DemoUITests.swift */,
+				FCA022B31C8E84D000560778 /* Info.plist */,
+			);
+			path = "Farm App_Passing Images Via Segue DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA0228D1C8E84D000560778 /* Farm App_Passing Images Via Segue Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA022B61C8E84D000560778 /* Build configuration list for PBXNativeTarget "Farm App_Passing Images Via Segue Demo" */;
+			buildPhases = (
+				FCA0228A1C8E84D000560778 /* Sources */,
+				FCA0228B1C8E84D000560778 /* Frameworks */,
+				FCA0228C1C8E84D000560778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Farm App_Passing Images Via Segue Demo";
+			productName = "Farm App_Passing Images Via Segue Demo";
+			productReference = FCA0228E1C8E84D000560778 /* Farm App_Passing Images Via Segue Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCA022A11C8E84D000560778 /* Farm App_Passing Images Via Segue DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA022B91C8E84D000560778 /* Build configuration list for PBXNativeTarget "Farm App_Passing Images Via Segue DemoTests" */;
+			buildPhases = (
+				FCA0229E1C8E84D000560778 /* Sources */,
+				FCA0229F1C8E84D000560778 /* Frameworks */,
+				FCA022A01C8E84D000560778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA022A41C8E84D000560778 /* PBXTargetDependency */,
+			);
+			name = "Farm App_Passing Images Via Segue DemoTests";
+			productName = "Farm App_Passing Images Via Segue DemoTests";
+			productReference = FCA022A21C8E84D000560778 /* Farm App_Passing Images Via Segue DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCA022AC1C8E84D000560778 /* Farm App_Passing Images Via Segue DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA022BC1C8E84D000560778 /* Build configuration list for PBXNativeTarget "Farm App_Passing Images Via Segue DemoUITests" */;
+			buildPhases = (
+				FCA022A91C8E84D000560778 /* Sources */,
+				FCA022AA1C8E84D000560778 /* Frameworks */,
+				FCA022AB1C8E84D000560778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA022AF1C8E84D000560778 /* PBXTargetDependency */,
+			);
+			name = "Farm App_Passing Images Via Segue DemoUITests";
+			productName = "Farm App_Passing Images Via Segue DemoUITests";
+			productReference = FCA022AD1C8E84D000560778 /* Farm App_Passing Images Via Segue DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA022861C8E84D000560778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Corwin Crownover";
+				TargetAttributes = {
+					FCA0228D1C8E84D000560778 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					FCA022A11C8E84D000560778 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FCA0228D1C8E84D000560778;
+					};
+					FCA022AC1C8E84D000560778 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FCA0228D1C8E84D000560778;
+					};
+				};
+			};
+			buildConfigurationList = FCA022891C8E84D000560778 /* Build configuration list for PBXProject "Farm App_Passing Images Via Segue Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCA022851C8E84D000560778;
+			productRefGroup = FCA0228F1C8E84D000560778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA0228D1C8E84D000560778 /* Farm App_Passing Images Via Segue Demo */,
+				FCA022A11C8E84D000560778 /* Farm App_Passing Images Via Segue DemoTests */,
+				FCA022AC1C8E84D000560778 /* Farm App_Passing Images Via Segue DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA0228C1C8E84D000560778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA0229C1C8E84D000560778 /* LaunchScreen.storyboard in Resources */,
+				FCA022991C8E84D000560778 /* Assets.xcassets in Resources */,
+				FCA022971C8E84D000560778 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA022A01C8E84D000560778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA022AB1C8E84D000560778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA0228A1C8E84D000560778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA022941C8E84D000560778 /* ViewController.swift in Sources */,
+				FCA022921C8E84D000560778 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA0229E1C8E84D000560778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA022A71C8E84D000560778 /* Farm_App_Passing_Images_Via_Segue_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA022A91C8E84D000560778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA022B21C8E84D000560778 /* Farm_App_Passing_Images_Via_Segue_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCA022A41C8E84D000560778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA0228D1C8E84D000560778 /* Farm App_Passing Images Via Segue Demo */;
+			targetProxy = FCA022A31C8E84D000560778 /* PBXContainerItemProxy */;
+		};
+		FCA022AF1C8E84D000560778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA0228D1C8E84D000560778 /* Farm App_Passing Images Via Segue Demo */;
+			targetProxy = FCA022AE1C8E84D000560778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCA022951C8E84D000560778 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA022961C8E84D000560778 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCA0229A1C8E84D000560778 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA0229B1C8E84D000560778 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA022B41C8E84D000560778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCA022B51C8E84D000560778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA022B71C8E84D000560778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Farm App_Passing Images Via Segue Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Farm-App-Passing-Images-Via-Segue-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCA022B81C8E84D000560778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Farm App_Passing Images Via Segue Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Farm-App-Passing-Images-Via-Segue-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCA022BA1C8E84D000560778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Farm App_Passing Images Via Segue DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Farm-App-Passing-Images-Via-Segue-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Farm App_Passing Images Via Segue Demo.app/Farm App_Passing Images Via Segue Demo";
+			};
+			name = Debug;
+		};
+		FCA022BB1C8E84D000560778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Farm App_Passing Images Via Segue DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Farm-App-Passing-Images-Via-Segue-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Farm App_Passing Images Via Segue Demo.app/Farm App_Passing Images Via Segue Demo";
+			};
+			name = Release;
+		};
+		FCA022BD1C8E84D000560778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Farm App_Passing Images Via Segue DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Farm-App-Passing-Images-Via-Segue-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Farm App_Passing Images Via Segue Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FCA022BE1C8E84D000560778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Farm App_Passing Images Via Segue DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Farm-App-Passing-Images-Via-Segue-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Farm App_Passing Images Via Segue Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA022891C8E84D000560778 /* Build configuration list for PBXProject "Farm App_Passing Images Via Segue Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA022B41C8E84D000560778 /* Debug */,
+				FCA022B51C8E84D000560778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA022B61C8E84D000560778 /* Build configuration list for PBXNativeTarget "Farm App_Passing Images Via Segue Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA022B71C8E84D000560778 /* Debug */,
+				FCA022B81C8E84D000560778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCA022B91C8E84D000560778 /* Build configuration list for PBXNativeTarget "Farm App_Passing Images Via Segue DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA022BA1C8E84D000560778 /* Debug */,
+				FCA022BB1C8E84D000560778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCA022BC1C8E84D000560778 /* Build configuration list for PBXNativeTarget "Farm App_Passing Images Via Segue DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA022BD1C8E84D000560778 /* Debug */,
+				FCA022BE1C8E84D000560778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA022861C8E84D000560778 /* Project object */;
+}
