@@ -14,6 +14,11 @@
 		FCA0229C1C8E84D000560778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA0229A1C8E84D000560778 /* LaunchScreen.storyboard */; };
 		FCA022A71C8E84D000560778 /* Farm_App_Passing_Images_Via_Segue_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA022A61C8E84D000560778 /* Farm_App_Passing_Images_Via_Segue_DemoTests.swift */; };
 		FCA022B21C8E84D000560778 /* Farm_App_Passing_Images_Via_Segue_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA022B11C8E84D000560778 /* Farm_App_Passing_Images_Via_Segue_DemoUITests.swift */; };
+		FCA022C01C8E85DD00560778 /* FarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA022BF1C8E85DD00560778 /* FarmViewController.swift */; };
+		FCA022C21C8E85E200560778 /* AnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA022C11C8E85E200560778 /* AnimalViewController.swift */; };
+		FCA022C41C8E8A1700560778 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA022C31C8E8A1700560778 /* ImageTransition.swift */; };
+		FCA022C71C8E8A2800560778 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA022C51C8E8A2800560778 /* BaseTransition.swift */; };
+		FCA022C81C8E8A2800560778 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA022C61C8E8A2800560778 /* FadeTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		FCA022AD1C8E84D000560778 /* Farm App_Passing Images Via Segue DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Farm App_Passing Images Via Segue DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA022B11C8E84D000560778 /* Farm_App_Passing_Images_Via_Segue_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Farm_App_Passing_Images_Via_Segue_DemoUITests.swift; sourceTree = "<group>"; };
 		FCA022B31C8E84D000560778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA022BF1C8E85DD00560778 /* FarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FarmViewController.swift; sourceTree = "<group>"; };
+		FCA022C11C8E85E200560778 /* AnimalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalViewController.swift; sourceTree = "<group>"; };
+		FCA022C31C8E8A1700560778 /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
+		FCA022C51C8E8A2800560778 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		FCA022C61C8E8A2800560778 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +110,13 @@
 				FCA022911C8E84D000560778 /* AppDelegate.swift */,
 				FCA022931C8E84D000560778 /* ViewController.swift */,
 				FCA022951C8E84D000560778 /* Main.storyboard */,
+				FCA022BF1C8E85DD00560778 /* FarmViewController.swift */,
+				FCA022C11C8E85E200560778 /* AnimalViewController.swift */,
+				FCA022C31C8E8A1700560778 /* ImageTransition.swift */,
 				FCA022981C8E84D000560778 /* Assets.xcassets */,
 				FCA0229A1C8E84D000560778 /* LaunchScreen.storyboard */,
+				FCA022C51C8E8A2800560778 /* BaseTransition.swift */,
+				FCA022C61C8E8A2800560778 /* FadeTransition.swift */,
 				FCA0229D1C8E84D000560778 /* Info.plist */,
 			);
 			path = "Farm App_Passing Images Via Segue Demo";
@@ -257,7 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCA022941C8E84D000560778 /* ViewController.swift in Sources */,
+				FCA022C81C8E8A2800560778 /* FadeTransition.swift in Sources */,
+				FCA022C71C8E8A2800560778 /* BaseTransition.swift in Sources */,
+				FCA022C41C8E8A1700560778 /* ImageTransition.swift in Sources */,
 				FCA022921C8E84D000560778 /* AppDelegate.swift in Sources */,
+				FCA022C21C8E85E200560778 /* AnimalViewController.swift in Sources */,
+				FCA022C01C8E85DD00560778 /* FarmViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

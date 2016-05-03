@@ -1,25 +1,117 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Farm View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
+                <viewController id="BYZ-38-t0r" customClass="FarmViewController" customModule="Farm_App_Passing_Images_Via_Segue_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Duck" id="dPF-Jq-ac2">
+                                <rect key="frame" x="75" y="89" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="AGu-mg-mlM" appends="YES" id="LHO-0V-0pN"/>
+                                </connections>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Farmhouse" id="2Yu-Pq-FAi">
+                                <rect key="frame" x="75" y="187" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="uk9-tu-W0g" appends="YES" id="gS9-hM-cbE"/>
+                                </connections>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Rabbit" id="PeJ-3S-3Ik">
+                                <rect key="frame" x="193" y="89" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="1FQ-jF-GVv" appends="YES" id="krv-1X-V2Z"/>
+                                </connections>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Pig" id="KoN-BH-SeR">
+                                <rect key="frame" x="193" y="187" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wqT-ub-RHq" appends="YES" id="YtU-sq-5XV"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <segue destination="2Qt-4s-b2K" kind="modal" identifier="animalSegue" id="fU7-dQ-6Y4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="AGu-mg-mlM">
+                    <connections>
+                        <action selector="onTap:" destination="BYZ-38-t0r" id="ob6-6u-eMG"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="1FQ-jF-GVv">
+                    <connections>
+                        <action selector="onTap:" destination="BYZ-38-t0r" id="hcn-aP-Bl7"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="uk9-tu-W0g">
+                    <connections>
+                        <action selector="onTap:" destination="BYZ-38-t0r" id="38M-GR-RGt"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="wqT-ub-RHq">
+                    <connections>
+                        <action selector="onTap:" destination="BYZ-38-t0r" id="IVc-Qq-zzm"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="162.66666666666666" y="366.83333333333331"/>
+        </scene>
+        <!--Animal View Controller-->
+        <scene sceneID="rEa-Bj-cvl">
+            <objects>
+                <viewController id="2Qt-4s-b2K" customClass="AnimalViewController" customModule="Farm_App_Passing_Images_Via_Segue_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GFn-Nh-upR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xuZ-yi-rOQ">
+                                <rect key="frame" x="253" y="29" width="54" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Dismiss"/>
+                                <connections>
+                                    <action selector="onDismiss:" destination="2Qt-4s-b2K" eventType="touchUpInside" id="lcZ-gE-khh"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Doc-ql-HP3">
+                                <rect key="frame" x="10" y="80" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="animalImageView" destination="Doc-ql-HP3" id="FJP-vs-NE3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Dc-Iz-vzr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="568" y="366"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Duck" width="50" height="50"/>
+        <image name="Farmhouse" width="50" height="50"/>
+        <image name="Pig" width="50" height="50"/>
+        <image name="Rabbit" width="50" height="50"/>
+    </resources>
 </document>
